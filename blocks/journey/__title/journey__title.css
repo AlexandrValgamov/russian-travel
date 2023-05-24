@@ -1,0 +1,31 @@
+.journey__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+  width: 720px;
+  margin: 0;
+  padding-bottom: 32px;
+}
+
+@media screen and (max-width: 721px) {
+  .journey__title{
+    font-size: 63px;
+    line-height: 67px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .journey__title{
+    font-size: 40px;
+    line-height: 44px;
+    width: 100%;
+  }
+}

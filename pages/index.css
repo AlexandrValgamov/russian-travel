@@ -1,0 +1,23 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+
+/*  header  */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+
+/*  journey  */
+@import url(../blocks/journey/journey.css);
+@import url(../blocks/journey/__title/journey__title.css);
+@import url(../blocks/journey/__subtitle/journey__subtitle.css);
+@import url(../blocks/journey/__main-image/journey__main-image.css);
+@import url(../blocks/journey/__caption/journey__caption.css);
+
+/*  intro  */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
