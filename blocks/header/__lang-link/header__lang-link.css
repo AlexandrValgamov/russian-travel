@@ -6,15 +6,16 @@ font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 28px;
-/* identical to box height, or 117% */
-
 text-align: right;
 text-decoration: none;
-
 color: #FFFFFF;
 }
 
-@media screen and (max-width: 320px) {
+.header__lang-link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 740px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
